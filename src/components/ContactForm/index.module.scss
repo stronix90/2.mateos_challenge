@@ -1,0 +1,65 @@
+.container {
+    width: 100%;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+
+        label {
+            margin: 20px 0 5px;
+        }
+
+        input,
+        textarea,
+        button {
+            padding: 10px 15px;
+            border-radius: 8px;
+            border: solid 1px black;
+        }
+
+        .error {
+            border: solid 1px red;
+            background: white
+                url("https://images.emojiterra.com/google/noto-emoji/v2.034/128px/2757.png")
+                no-repeat;
+            background-position: right 10px top 50%;
+            background-size: 16px;
+        }
+
+        div {
+            margin: 3px 0 0 15px;
+            font-size: small;
+            color: red;
+        }
+
+        button {
+            background-image: linear-gradient(
+                to right,
+                #77a1d3 0%,
+                #79cbca 51%,
+                #77a1d3 100%
+            );
+            margin: 20px;
+            padding: 15px 10px;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bolder;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}

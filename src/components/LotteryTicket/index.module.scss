@@ -1,0 +1,35 @@
+.container {
+    button {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        background-color: #61c361;
+        box-shadow: 3px 3px 10px #c5c5c5;
+    }
+}
+
+.ticket{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 10px;
+    padding: 20px;
+    background: #61c361;
+    font-size: 24px;
+    border: 3px solid white;
+    outline: 5px solid black;
+    text-align: center;
+    box-shadow: 5px 5px 10px #979797;
+
+    div{
+        padding:10px;
+    }
+}
+
+.number {
+    background: white;
+    border: solid 1px green;
+}
+
+.empty {
+    background-color: #87cd87;
+}

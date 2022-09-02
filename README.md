@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Desafío Joaquín Mateos
+## Actividades técnicas
 
-## Getting Started
+### Consigna 1:
+Generar un programa que cree un cartón de bingo aleatorio y lo muestre por pantalla (puede ser una web, una app de consola, o la plataforma que gusten)
 
-First, run the development server:
+- Cartón de 3 filas por 9 columnas
+- El cartón debe tener 15 números y 12 espacios en blanco
+- Cada fila debe tener 5 números
+- Cada columna debe tener 1 o 2 números
+- Ningún número puede repetirse
+- La primer columna contiene los números del 1 al 9, la segunda del 10 al 19, la tercera del 20 al 29, así sucesivamente hasta la última columna la cual contiene del 80 al 90
 
+Ejemplo:
+
+![Ticket ejemplo](/github_resources/ticket.png "Ticket ejemplo")
+
+<br>
+
+### Consigna 2:
+Generar una app web en React donde muestre el siguiente formulario:
+![Formulario de ejemplo](/github_resources/form.png "Formulario de ejemplo")
+
+## Instalación
+
+1. Clonar repositorio
+```
+git clone https://github.com/stronix90/2.mateos_challenge
+```
+
+2. Ingresar al directorio de la aplicación
+```
+cd 2.mateos_challenge
+```
+
+3. Instalar dependencias
 ```bash
 npm run dev
 # or
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Abrir sitio web
+Abrir [http://localhost:3000](http://localhost:3000) con tu navegador para ver los resultados.
